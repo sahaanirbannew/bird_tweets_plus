@@ -7,4 +7,4 @@ def helloWorld():
 
 if __name__ == '__main__':
   app.config['JSONIFY_PRETTYPRINT_REGULAR'] = False
-  app.run(debug=True, port = port) 
+  app.run()
